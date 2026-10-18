@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.clicker {
+  background-color: rgb(9, 114, 114);
+  color: azure;
+  padding: 15px;
+  border-radius: 15px;
+  width: 110px;
+  border: 1px solid rgb(7, 148, 148);
+  transition: 100ms ease-in-out;
+}
+.clicker:hover {
+  background-color: rgb(11, 206, 206);
+}
+.clicker:active {
+  transform: translateY(5px);
+  background-color: rgb(2, 56, 56);
+}
